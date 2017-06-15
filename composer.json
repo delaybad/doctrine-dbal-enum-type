@@ -1,0 +1,32 @@
+{
+  "name": "vr/doctrine-dbal-enum-type",
+  "description": "Abstract enum type for doctrine dbal Mysql platform",
+  "keywords": ["enum", "doctrine", "dbal", "type"],
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "email": "delaybad@yandex.ru"
+  },
+  "require": {
+    "php": "^7.1",
+    "doctrine/dbal": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vr\\Doctrine\\DBAL\\Types\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
